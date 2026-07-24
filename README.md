@@ -63,7 +63,7 @@ This **Meta-Analysis Toolkit** provides a modular, configurable 3-step pipeline:
 
 ### Prerequisites
 
-* **Python 3.8+**
+* **Python 3.13+**
 * `pip` package manager
 
 ### Installation
