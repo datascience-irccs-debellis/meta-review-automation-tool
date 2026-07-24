@@ -4,7 +4,7 @@
 [![Status](https://img.shields.io/badge/status-Academic%20Prototype-orange.svg)]()
 [![License](https://img.shields.io/badge/license-MIT-green.svg)]()
 
-> **Associated Paper**: *Meta-Analysis Toolkit: A configurable pipeline for systematic reviews.*  
+> **Associated Paper**: *An Open-source Tool for Automated Meta-Review: Synthesizing Cholangiocarcinoma Research in the UK Biobank*  
 > **Target Journal**: *Journal of Biomedical Informatics (JBI)*  
 > **Purpose**: End-to-end framework for interactive literature standardization, automated meta-review visualizations, quantitative meta-analysis, and bipartite evidence mapping.
 
