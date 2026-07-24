@@ -1,6 +1,6 @@
 # 📊 Meta-Analysis Toolkit: A Configurable Pipeline for Systematic Reviews
 
-[![Python Version](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org/)
+[![Python Version](https://img.shields.io/badge/python-3.13%2B-blue.svg)](https://www.python.org/)
 [![Status](https://img.shields.io/badge/status-Academic%20Prototype-orange.svg)]()
 [![License](https://img.shields.io/badge/license-MIT-green.svg)]()
 
