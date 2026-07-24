@@ -1,0 +1,92 @@
+{
+  "tumors": [
+    {
+      "tumor_subtype": "C22.1",
+      "source_registers": [
+        "national cancer",
+        "inpatient medical records"
+      ],
+      "total_participants": 136744,
+      "models": [
+        {
+          "model_type": "multivariate cox hazard models adjusted for age,weight of food,beverage intake,other food groups. ",
+          "subgroups": [
+            {
+              "subgroup_type": "Overall",
+              "threshold": "None",
+              "subgroup": "Overall",
+              "results": [
+                {
+                  "feature": "Total red meat to legumes",
+                  "measure": "Hazard Ratios",
+                  "value": 0.94,
+                  "ci_lower": 0.87,
+                  "ci_upper": 1.02,
+                  "p_value": "None",
+                  "p_hr_heterogeneity": "None"
+                },
+                {
+                  "feature": "Unprocessed red meat to legumes",
+                  "measure": "Hazard Ratios",
+                  "value": 0.92,
+                  "ci_lower": 0.85,
+                  "ci_upper": 1.0,
+                  "p_value": "None",
+                  "p_hr_heterogeneity": "None"
+                },
+                {
+                  "feature": "Processed red meat",
+                  "measure": "Hazard Ratios",
+                  "value": 1.03,
+                  "ci_lower": 0.9,
+                  "ci_upper": 1.18,
+                  "p_value": "None",
+                  "p_hr_heterogeneity": "None"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "model_type": "multivariate cox hazard models adjusted for age,weight of food,beverage intake,other food groups,education,townsend deprivation index,living alone,physiscal activity,smoking,alchol intake,waist circumference.",
+          "subgroups": [
+            {
+              "subgroup_type": "Overall",
+              "threshold": "None",
+              "subgroup": "Overall",
+              "results": [
+                {
+                  "feature": "Total red meat to legumes",
+                  "measure": "Hazard Ratios",
+                  "value": 0.97,
+                  "ci_lower": 0.89,
+                  "ci_upper": 1.05,
+                  "p_value": "None",
+                  "p_hr_heterogeneity": "None"
+                },
+                {
+                  "feature": "Unprocessed red meat to legumes",
+                  "measure": "Hazard Ratios",
+                  "value": 0.94,
+                  "ci_lower": 0.87,
+                  "ci_upper": 1.02,
+                  "p_value": "None",
+                  "p_hr_heterogeneity": "None"
+                },
+                {
+                  "feature": "Processed red meat",
+                  "measure": "Hazard Ratios",
+                  "value": 1.07,
+                  "ci_lower": 0.93,
+                  "ci_upper": 1.23,
+                  "p_value": "None",
+                  "p_hr_heterogeneity": "None"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

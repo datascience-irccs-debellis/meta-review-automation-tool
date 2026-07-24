@@ -1,0 +1,110 @@
+{
+  "tumors": [
+    {
+      "tumor_subtype": "C22.1",
+      "source_registers": [
+        "national cancer",
+        "inpatient medical records",
+        "death registries"
+      ],
+      "total_participants": 449815,
+      "models": [
+        {
+          "model_type": "univariate cox hazard models",
+          "subgroups": [
+            {
+              "subgroup_type": "Overall",
+              "threshold": "None",
+              "subgroup": "Overall",
+              "results": [
+                {
+                  "feature": "Liver Disease",
+                  "measure": "Hazard Ratios",
+                  "value": 5.12,
+                  "ci_lower": 3.93,
+                  "ci_upper": 6.68,
+                  "p_value": "None",
+                  "p_hr_heterogeneity": "None"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "model_type": "multivariate cox hazard models adjusted for Age, Gender, BMI, Smoking Status, Alcohol Consumption Frequency, Diabetes Status,  Statins Drugs Use, Metformin Drug use, Non-steroidal Anti-inflammatory drugs use",
+          "subgroups": [
+            {
+              "subgroup_type": "Overall",
+              "threshold": "None",
+              "subgroup": "Overall",
+              "results": [
+                {
+                  "feature": "Liver Disease",
+                  "measure": "Hazard Ratios",
+                  "value": 4.45,
+                  "ci_lower": 3.37,
+                  "ci_upper": 5.37,
+                  "p_value": "None",
+                  "p_hr_heterogeneity": "None"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tumor_subtype": "C24",
+      "source_registers": [
+        "national cancer",
+        "inpatient medical records",
+        "death registries"
+      ],
+      "total_participants": 449815,
+      "models": [
+        {
+          "model_type": "univariate cox hazard models",
+          "subgroups": [
+            {
+              "subgroup_type": "Overall",
+              "threshold": "None",
+              "subgroup": "Overall",
+              "results": [
+                {
+                  "feature": "Liver Disease",
+                  "measure": "Hazard Ratios",
+                  "value": 3.21,
+                  "ci_lower": 2.31,
+                  "ci_upper": 4.35,
+                  "p_value": "None",
+                  "p_hr_heterogeneity": "None"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "model_type": "multivariate cox hazard models adjusted for Age, Gender, BMI, Smoking Status, Alcohol Consumption Frequency, Diabetes Status,  Statins Drugs Use, Metformin Drug use, Non-steroidal Anti-inflammatory drugs use",
+          "subgroups": [
+            {
+              "subgroup_type": "Overall",
+              "threshold": "None",
+              "subgroup": "Overall",
+              "results": [
+                {
+                  "feature": "Liver Disease",
+                  "measure": "Hazard Ratios",
+                  "value": 2.71,
+                  "ci_lower": 1.94,
+                  "ci_upper": 3.69,
+                  "p_value": "None",
+                  "p_hr_heterogeneity": "None"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,696 @@
+{
+  "tumors": [
+    {
+      "tumor_subtype": "C22",
+      "source_registers": [
+        "inpatient medical records"
+      ],
+      "total_participants": 319568,
+      "models": [
+        {
+          "model_type": "multivariate cox hazard models adjusted for Age, Sex, BMI, Smoking status, Alcohol drinking status, Education qualification, Employment status, TDI, Physical activity level, Family cancer history, ALT, AST, SBP, DBP, Cerebral infarction, Ischaemic heart disease, Primary hypertension, HbA1c, Diabetes.",
+          "subgroups": [
+            {
+              "subgroup_type": "Age",
+              "threshold": 60,
+              "subgroup": "Lower",
+              "results": [
+                {
+                  "feature": "HDL-C<1.0mmol/L",
+                  "measure": "Hazard Ratios",
+                  "value": 0.906,
+                  "ci_lower": 0.432,
+                  "ci_upper": 1.9,
+                  "p_value": 0.794,
+                  "p_hr_heterogeneity": "None"
+                },
+                {
+                  "feature": "HDL-C>1.6mmol/L",
+                  "measure": "Hazard Ratios",
+                  "value": 0.885,
+                  "ci_lower": 0.524,
+                  "ci_upper": 1.496,
+                  "p_value": 0.648,
+                  "p_hr_heterogeneity": "None"
+                },
+                {
+                  "feature": "LDL-C<3.4mmol/L",
+                  "measure": "Hazard Ratios",
+                  "value": 0.845,
+                  "ci_lower": 0.513,
+                  "ci_upper": 1.391,
+                  "p_value": 0.507,
+                  "p_hr_heterogeneity": "None"
+                },
+                {
+                  "feature": "LDL-C>4.1mmol/L",
+                  "measure": "Hazard Ratios",
+                  "value": 0.892,
+                  "ci_lower": 0.514,
+                  "ci_upper": 1.545,
+                  "p_value": 0.683,
+                  "p_hr_heterogeneity": "None"
+                },
+                {
+                  "feature": "TG:1.7-2.2mmol/L",
+                  "measure": "Hazard Ratios",
+                  "value": 0.758,
+                  "ci_lower": 0.39,
+                  "ci_upper": 1.475,
+                  "p_value": 0.415,
+                  "p_hr_heterogeneity": "None"
+                },
+                {
+                  "feature": "TG>2.2mmol/L",
+                  "measure": "Hazard Ratios",
+                  "value": 0.952,
+                  "ci_lower": 0.561,
+                  "ci_upper": 1.617,
+                  "p_value": 0.857,
+                  "p_hr_heterogeneity": "None"
+                }
+              ]
+            },
+            {
+              "subgroup_type": "Age",
+              "threshold": 60,
+              "subgroup": "Greater",
+              "results": [
+                {
+                  "feature": "HDL-C<1.0mmol/L",
+                  "measure": "Hazard Ratios",
+                  "value": 1.083,
+                  "ci_lower": 0.739,
+                  "ci_upper": 1.587,
+                  "p_value": 0.683,
+                  "p_hr_heterogeneity": "None"
+                },
+                {
+                  "feature": "HDL-C>1.6mmol/L",
+                  "measure": "Hazard Ratios",
+                  "value": 0.951,
+                  "ci_lower": 0.688,
+                  "ci_upper": 1.314,
+                  "p_value": 0.76,
+                  "p_hr_heterogeneity": "None"
+                },
+                {
+                  "feature": "LDL-C<3.4mmol/L",
+                  "measure": "Hazard Ratios",
+                  "value": 1.225,
+                  "ci_lower": 0.894,
+                  "ci_upper": 1.678,
+                  "p_value": 0.207,
+                  "p_hr_heterogeneity": "None"
+                },
+                {
+                  "feature": "LDL-C>4.1mmol/L",
+                  "measure": "Hazard Ratios",
+                  "value": 0.949,
+                  "ci_lower": 0.653,
+                  "ci_upper": 1.379,
+                  "p_value": 0.784,
+                  "p_hr_heterogeneity": "None"
+                },
+                {
+                  "feature": "TG:1.7-2.2mmol/L",
+                  "measure": "Hazard Ratios",
+                  "value": 0.987,
+                  "ci_lower": 0.7,
+                  "ci_upper": 1.392,
+                  "p_value": 0.942,
+                  "p_hr_heterogeneity": "None"
+                },
+                {
+                  "feature": "TG>2.2mmol/L",
+                  "measure": "Hazard Ratios",
+                  "value": 1.112,
+                  "ci_lower": 0.827,
+                  "ci_upper": 1.495,
+                  "p_value": 0.482,
+                  "p_hr_heterogeneity": "None"
+                }
+              ]
+            },
+            {
+              "subgroup_type": "Sex",
+              "threshold": "Categorical",
+              "subgroup": "Male",
+              "results": [
+                {
+                  "feature": "HDL-C<1.0mmol/L",
+                  "measure": "Hazard Ratios",
+                  "value": 0.988,
+                  "ci_lower": 0.669,
+                  "ci_upper": 1.459,
+                  "p_value": 0.953,
+                  "p_hr_heterogeneity": "None"
+                },
+                {
+                  "feature": "HDL-C>1.6mmol/L",
+                  "measure": "Hazard Ratios",
+                  "value": 1.11,
+                  "ci_lower": 0.715,
+                  "ci_upper": 1.723,
+                  "p_value": 0.641,
+                  "p_hr_heterogeneity": "None"
+                },
+                {
+                  "feature": "LDL-C<3.4mmol/L",
+                  "measure": "Hazard Ratios",
+                  "value": 1.384,
+                  "ci_lower": 0.947,
+                  "ci_upper": 2.024,
+                  "p_value": 0.094,
+                  "p_hr_heterogeneity": "None"
+                },
+                {
+                  "feature": "LDL-C>4.1mmol/L",
+                  "measure": "Hazard Ratios",
+                  "value": 0.963,
+                  "ci_lower": 0.587,
+                  "ci_upper": 1.581,
+                  "p_value": 0.882,
+                  "p_hr_heterogeneity": "None"
+                },
+                {
+                  "feature": "TG:1.7-2.2mmol/L",
+                  "measure": "Hazard Ratios",
+                  "value": 0.714,
+                  "ci_lower": 0.46,
+                  "ci_upper": 1.109,
+                  "p_value": 0.134,
+                  "p_hr_heterogeneity": "None"
+                },
+                {
+                  "feature": "TG>2.2mmol/L",
+                  "measure": "Hazard Ratios",
+                  "value": 0.956,
+                  "ci_lower": 0.682,
+                  "ci_upper": 1.339,
+                  "p_value": 0.793,
+                  "p_hr_heterogeneity": "None"
+                }
+              ]
+            },
+            {
+              "subgroup_type": "Sex",
+              "threshold": "Categorical",
+              "subgroup": "Female",
+              "results": [
+                {
+                  "feature": "HDL-C<1.0mmol/L",
+                  "measure": "Hazard Ratios",
+                  "value": 1.398,
+                  "ci_lower": 0.69,
+                  "ci_upper": 2.832,
+                  "p_value": 0.352,
+                  "p_hr_heterogeneity": "None"
+                },
+                {
+                  "feature": "HDL-C>1.6mmol/L",
+                  "measure": "Hazard Ratios",
+                  "value": 0.813,
+                  "ci_lower": 0.573,
+                  "ci_upper": 1.151,
+                  "p_value": 0.243,
+                  "p_hr_heterogeneity": "None"
+                },
+                {
+                  "feature": "LDL-C<3.4mmol/L",
+                  "measure": "Hazard Ratios",
+                  "value": 0.854,
+                  "ci_lower": 0.582,
+                  "ci_upper": 1.252,
+                  "p_value": 0.418,
+                  "p_hr_heterogeneity": "None"
+                },
+                {
+                  "feature": "LDL-C>4.1mmol/L",
+                  "measure": "Hazard Ratios",
+                  "value": 0.873,
+                  "ci_lower": 0.589,
+                  "ci_upper": 1.297,
+                  "p_value": 0.501,
+                  "p_hr_heterogeneity": "None"
+                },
+                {
+                  "feature": "TG:1.7-2.2mmol/L",
+                  "measure": "Hazard Ratios",
+                  "value": 1.201,
+                  "ci_lower": 0.789,
+                  "ci_upper": 1.829,
+                  "p_value": 0.394,
+                  "p_hr_heterogeneity": "None"
+                },
+                {
+                  "feature": "TG>2.2mmol/L",
+                  "measure": "Hazard Ratios",
+                  "value": 1.257,
+                  "ci_lower": 0.847,
+                  "ci_upper": 1.867,
+                  "p_value": 0.257,
+                  "p_hr_heterogeneity": "None"
+                }
+              ]
+            },
+            {
+              "subgroup_type": "Overall",
+              "threshold": "None",
+              "subgroup": "Overall",
+              "results": [
+                {
+                  "feature": "HDL-C",
+                  "measure": "Hazard Ratios",
+                  "value": 0.847,
+                  "ci_lower": 0.606,
+                  "ci_upper": 1.186,
+                  "p_value": 0.334,
+                  "p_hr_heterogeneity": "None"
+                },
+                {
+                  "feature": "LDL-C",
+                  "measure": "Hazard Ratios",
+                  "value": 0.919,
+                  "ci_lower": 0.808,
+                  "ci_upper": 1.044,
+                  "p_value": 0.194,
+                  "p_hr_heterogeneity": "None"
+                },
+                {
+                  "feature": "TG",
+                  "measure": "Hazard Ratios",
+                  "value": 1.038,
+                  "ci_lower": 0.936,
+                  "ci_upper": 1.151,
+                  "p_value": 0.475,
+                  "p_hr_heterogeneity": "None"
+                },
+                {
+                  "feature": "HDL-C<1.0mmol/L",
+                  "measure": "Hazard Ratios",
+                  "value": 1.06,
+                  "ci_lower": 0.755,
+                  "ci_upper": 1.487,
+                  "p_value": 0.738,
+                  "p_hr_heterogeneity": "None"
+                },
+                {
+                  "feature": "HDL-C>1.6mmol/L",
+                  "measure": "Hazard Ratios",
+                  "value": 0.925,
+                  "ci_lower": 0.703,
+                  "ci_upper": 1.217,
+                  "p_value": 0.578,
+                  "p_hr_heterogeneity": "None"
+                },
+                {
+                  "feature": "LDL-C<3.4mmol/L",
+                  "measure": "Hazard Ratios",
+                  "value": 1.125,
+                  "ci_lower": 0.864,
+                  "ci_upper": 1.465,
+                  "p_value": 0.383,
+                  "p_hr_heterogeneity": "None"
+                },
+                {
+                  "feature": "LDL-C>4.1mmol/L",
+                  "measure": "Hazard Ratios",
+                  "value": 0.921,
+                  "ci_lower": 0.676,
+                  "ci_upper": 1.254,
+                  "p_value": 0.602,
+                  "p_hr_heterogeneity": "None"
+                },
+                {
+                  "feature": "TG:1.7-2.2mmol/L",
+                  "measure": "Hazard Ratios",
+                  "value": 0.909,
+                  "ci_lower": 0.671,
+                  "ci_upper": 1.231,
+                  "p_value": 0.537,
+                  "p_hr_heterogeneity": "None"
+                },
+                {
+                  "feature": "TG>2.2mmol/L",
+                  "measure": "Hazard Ratios",
+                  "value": 1.058,
+                  "ci_lower": 0.819,
+                  "ci_upper": 1.367,
+                  "p_value": 0.662,
+                  "p_hr_heterogeneity": "None"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tumor_subtype": "C24",
+      "source_registers": [
+        "inpatient medical records"
+      ],
+      "total_participants": 319568,
+      "models": [
+        {
+          "model_type": "multivariate cox hazard models adjusted for Age, Sex, BMI, Smoking status, Alcohol drinking status, Education qualification, Employment status, TDI, Physical activity level, Family cancer history, ALT, AST, SBP, DBP, Cerebral infarction, Ischaemic heart disease, Primary hypertension, HbA1c, Diabetes.",
+          "subgroups": [
+            {
+              "subgroup_type": "Age",
+              "threshold": 60,
+              "subgroup": "Lower",
+              "results": [
+                {
+                  "feature": "HDL-C<1.0mmol/L",
+                  "measure": "Hazard Ratios",
+                  "value": 0.561,
+                  "ci_lower": 0.195,
+                  "ci_upper": 1.614,
+                  "p_value": 0.284,
+                  "p_hr_heterogeneity": "None"
+                },
+                {
+                  "feature": "HDL-C>1.6mmol/L",
+                  "measure": "Hazard Ratios",
+                  "value": 1.078,
+                  "ci_lower": 0.605,
+                  "ci_upper": 1.923,
+                  "p_value": 0.798,
+                  "p_hr_heterogeneity": "None"
+                },
+                {
+                  "feature": "LDL-C<3.4mmol/L",
+                  "measure": "Hazard Ratios",
+                  "value": 0.64,
+                  "ci_lower": 0.361,
+                  "ci_upper": 1.136,
+                  "p_value": 0.128,
+                  "p_hr_heterogeneity": "None"
+                },
+                {
+                  "feature": "LDL-C>4.1mmol/L",
+                  "measure": "Hazard Ratios",
+                  "value": 0.84,
+                  "ci_lower": 0.456,
+                  "ci_upper": 1.545,
+                  "p_value": 0.574,
+                  "p_hr_heterogeneity": "None"
+                },
+                {
+                  "feature": "TG:1.7-2.2mmol/L",
+                  "measure": "Hazard Ratios",
+                  "value": 1.079,
+                  "ci_lower": 0.541,
+                  "ci_upper": 2.152,
+                  "p_value": 0.829,
+                  "p_hr_heterogeneity": "None"
+                },
+                {
+                  "feature": "TG>2.2mmol/L",
+                  "measure": "Hazard Ratios",
+                  "value": 1.058,
+                  "ci_lower": 0.564,
+                  "ci_upper": 1.985,
+                  "p_value": 0.86,
+                  "p_hr_heterogeneity": "None"
+                }
+              ]
+            },
+            {
+              "subgroup_type": "Age",
+              "threshold": 60,
+              "subgroup": "Greater",
+              "results": [
+                {
+                  "feature": "HDL-C<1.0mmol/L",
+                  "measure": "Hazard Ratios",
+                  "value": 0.795,
+                  "ci_lower": 0.458,
+                  "ci_upper": 1.377,
+                  "p_value": 0.413,
+                  "p_hr_heterogeneity": "None"
+                },
+                {
+                  "feature": "HDL-C>1.6mmol/L",
+                  "measure": "Hazard Ratios",
+                  "value": 0.954,
+                  "ci_lower": 0.649,
+                  "ci_upper": 1.401,
+                  "p_value": 0.809,
+                  "p_hr_heterogeneity": "None"
+                },
+                {
+                  "feature": "LDL-C<3.4mmol/L",
+                  "measure": "Hazard Ratios",
+                  "value": 0.93,
+                  "ci_lower": 0.618,
+                  "ci_upper": 1.4,
+                  "p_value": 0.728,
+                  "p_hr_heterogeneity": "None"
+                },
+                {
+                  "feature": "LDL-C>4.1mmol/L",
+                  "measure": "Hazard Ratios",
+                  "value": 1.541,
+                  "ci_lower": 1.02,
+                  "ci_upper": 2.328,
+                  "p_value": 0.04,
+                  "p_hr_heterogeneity": "None"
+                },
+                {
+                  "feature": "TG:1.7-2.2mmol/L",
+                  "measure": "Hazard Ratios",
+                  "value": 0.865,
+                  "ci_lower": 0.55,
+                  "ci_upper": 1.361,
+                  "p_value": 0.531,
+                  "p_hr_heterogeneity": "None"
+                },
+                {
+                  "feature": "TG>2.2mmol/L",
+                  "measure": "Hazard Ratios",
+                  "value": 1.331,
+                  "ci_lower": 1.009,
+                  "ci_upper": 1.757,
+                  "p_value": 0.043,
+                  "p_hr_heterogeneity": "None"
+                }
+              ]
+            },
+            {
+              "subgroup_type": "Sex",
+              "threshold": "Categorical",
+              "subgroup": "Male",
+              "results": [
+                {
+                  "feature": "HDL-C<1.0mmol/L",
+                  "measure": "Hazard Ratios",
+                  "value": 0.792,
+                  "ci_lower": 0.456,
+                  "ci_upper": 1.378,
+                  "p_value": 0.41,
+                  "p_hr_heterogeneity": "None"
+                },
+                {
+                  "feature": "HDL-C>1.6mmol/L",
+                  "measure": "Hazard Ratios",
+                  "value": 1.225,
+                  "ci_lower": 0.699,
+                  "ci_upper": 2.148,
+                  "p_value": 0.478,
+                  "p_hr_heterogeneity": "None"
+                },
+                {
+                  "feature": "LDL-C<3.4mmol/L",
+                  "measure": "Hazard Ratios",
+                  "value": 0.904,
+                  "ci_lower": 0.544,
+                  "ci_upper": 1.503,
+                  "p_value": 0.869,
+                  "p_hr_heterogeneity": "None"
+                },
+                {
+                  "feature": "LDL-C>4.1mmol/L",
+                  "measure": "Hazard Ratios",
+                  "value": 1.761,
+                  "ci_lower": 1.027,
+                  "ci_upper": 3.019,
+                  "p_value": 0.04,
+                  "p_hr_heterogeneity": "None"
+                },
+                {
+                  "feature": "TG:1.7-2.2mmol/L",
+                  "measure": "Hazard Ratios",
+                  "value": 0.983,
+                  "ci_lower": 0.551,
+                  "ci_upper": 1.752,
+                  "p_value": 0.953,
+                  "p_hr_heterogeneity": "None"
+                },
+                {
+                  "feature": "TG>2.2mmol/L",
+                  "measure": "Hazard Ratios",
+                  "value": 1.589,
+                  "ci_lower": 1.017,
+                  "ci_upper": 2.482,
+                  "p_value": 0.042,
+                  "p_hr_heterogeneity": "None"
+                }
+              ]
+            },
+            {
+              "subgroup_type": "Sex",
+              "threshold": "Categorical",
+              "subgroup": "Female",
+              "results": [
+                {
+                  "feature": "HDL-C<1.0mmol/L",
+                  "measure": "Hazard Ratios",
+                  "value": 0.552,
+                  "ci_lower": 0.172,
+                  "ci_upper": 1.775,
+                  "p_value": 0.319,
+                  "p_hr_heterogeneity": "None"
+                },
+                {
+                  "feature": "HDL-C>1.6mmol/L",
+                  "measure": "Hazard Ratios",
+                  "value": 0.884,
+                  "ci_lower": 0.602,
+                  "ci_upper": 1.297,
+                  "p_value": 0.528,
+                  "p_hr_heterogeneity": "None"
+                },
+                {
+                  "feature": "LDL-C<3.4mmol/L",
+                  "measure": "Hazard Ratios",
+                  "value": 0.767,
+                  "ci_lower": 0.494,
+                  "ci_upper": 1.191,
+                  "p_value": 0.238,
+                  "p_hr_heterogeneity": "None"
+                },
+                {
+                  "feature": "LDL-C>4.1mmol/L",
+                  "measure": "Hazard Ratios",
+                  "value": 1.037,
+                  "ci_lower": 0.673,
+                  "ci_upper": 1.598,
+                  "p_value": 0.698,
+                  "p_hr_heterogeneity": "None"
+                },
+                {
+                  "feature": "TG:1.7-2.2mmol/L",
+                  "measure": "Hazard Ratios",
+                  "value": 0.876,
+                  "ci_lower": 0.53,
+                  "ci_upper": 1.449,
+                  "p_value": 0.607,
+                  "p_hr_heterogeneity": "None"
+                },
+                {
+                  "feature": "TG>2.2mmol/L",
+                  "measure": "Hazard Ratios",
+                  "value": 1.003,
+                  "ci_lower": 0.637,
+                  "ci_upper": 1.579,
+                  "p_value": 0.99,
+                  "p_hr_heterogeneity": "None"
+                }
+              ]
+            },
+            {
+              "subgroup_type": "Overall",
+              "threshold": "None",
+              "subgroup": "Overall",
+              "results": [
+                {
+                  "feature": "HLD-C",
+                  "measure": "Hazard Ratios",
+                  "value": 0.892,
+                  "ci_lower": 0.588,
+                  "ci_upper": 1.353,
+                  "p_value": 0.591,
+                  "p_hr_heterogeneity": "None"
+                },
+                {
+                  "feature": "LDL-C",
+                  "measure": "Hazard Ratios",
+                  "value": 1.218,
+                  "ci_lower": 1.051,
+                  "ci_upper": 1.411,
+                  "p_value": 0.009,
+                  "p_hr_heterogeneity": "None"
+                },
+                {
+                  "feature": "TG",
+                  "measure": "Hazard Ratios",
+                  "value": 1.186,
+                  "ci_lower": 1.056,
+                  "ci_upper": 1.332,
+                  "p_value": 0.004,
+                  "p_hr_heterogeneity": "None"
+                },
+                {
+                  "feature": "HDL-C<1.0mmol/L",
+                  "measure": "Hazard Ratios",
+                  "value": 0.746,
+                  "ci_lower": 0.459,
+                  "ci_upper": 1.214,
+                  "p_value": 0.239,
+                  "p_hr_heterogeneity": "None"
+                },
+                {
+                  "feature": "HDL-C>1.6mmol/L",
+                  "measure": "Hazard Ratios",
+                  "value": 0.98,
+                  "ci_lower": 0.711,
+                  "ci_upper": 1.349,
+                  "p_value": 0.899,
+                  "p_hr_heterogeneity": "None"
+                },
+                {
+                  "feature": "LDL-C<3.4mmol/L",
+                  "measure": "Hazard Ratios",
+                  "value": 0.832,
+                  "ci_lower": 0.598,
+                  "ci_upper": 1.156,
+                  "p_value": 0.273,
+                  "p_hr_heterogeneity": "None"
+                },
+                {
+                  "feature": "LDL-C>4.1mmol/L",
+                  "measure": "Hazard Ratios",
+                  "value": 1.258,
+                  "ci_lower": 0.898,
+                  "ci_upper": 1.763,
+                  "p_value": 0.182,
+                  "p_hr_heterogeneity": "None"
+                },
+                {
+                  "feature": "TG:1.7-2.2mmol/L",
+                  "measure": "Hazard Ratios",
+                  "value": 0.907,
+                  "ci_lower": 0.621,
+                  "ci_upper": 1.324,
+                  "p_value": 0.612,
+                  "p_hr_heterogeneity": "None"
+                },
+                {
+                  "feature": "TG>2.2mmol/L",
+                  "measure": "Hazard Ratios",
+                  "value": 1.219,
+                  "ci_lower": 0.891,
+                  "ci_upper": 1.667,
+                  "p_value": 0.215,
+                  "p_hr_heterogeneity": "None"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

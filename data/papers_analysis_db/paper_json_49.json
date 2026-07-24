@@ -1,0 +1,52 @@
+{
+  "tumors": [
+    {
+      "tumor_subtype": "C22.1",
+      "source_registers": [
+        "inpatient medical records"
+      ],
+      "total_participants": 488941,
+      "models": [
+        {
+          "model_type": "multivariate regression model adjusted for age, sex, BMI, diabetes, alcohol consumption",
+          "subgroups": [
+            {
+              "subgroup_type": "Overall",
+              "threshold": "None",
+              "subgroup": "Overall",
+              "results": [
+                {
+                  "feature": "Chron Disease",
+                  "measure": "Odds Ratio",
+                  "value": 3.26,
+                  "ci_lower": 1.04,
+                  "ci_upper": 10.19,
+                  "p_value": 0.042,
+                  "p_hr_heterogeneity": "None"
+                },
+                {
+                  "feature": "Celiac Disease",
+                  "measure": "Odds Ratio",
+                  "value": null,
+                  "ci_lower": null,
+                  "ci_upper": null,
+                  "p_value": 0.78,
+                  "p_hr_heterogeneity": "None"
+                },
+                {
+                  "feature": "Ulcerative Colitis",
+                  "measure": "Odds Ratio",
+                  "value": null,
+                  "ci_lower": null,
+                  "ci_upper": null,
+                  "p_value": 0.21,
+                  "p_hr_heterogeneity": "None"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

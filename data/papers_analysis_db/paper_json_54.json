@@ -1,0 +1,309 @@
+{
+  "tumors": [
+    {
+      "tumor_subtype": "C22.1",
+      "source_registers": [
+        "national cancer"
+      ],
+      "total_participants": 434584,
+      "models": [
+        {
+          "model_type": "multivariate cox hazard models adjusted for Age,Sex.",
+          "subgroups": [
+            {
+              "subgroup_type": "Overall",
+              "threshold": "None",
+              "subgroup": "Overall",
+              "results": [
+                {
+                  "feature": "Habitual Fish Oil Use",
+                  "measure": "Hazard Ratios",
+                  "value": 0.59,
+                  "ci_lower": 0.38,
+                  "ci_upper": 0.91,
+                  "p_value": 0.018,
+                  "p_hr_heterogeneity": "None"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "model_type": "multivariate cox hazard models adjusted for Age,Sex,Ethnic,Townsend Deprivation Index,Smoking Status,Smoking Frequency,Alchol Consumption,Total Physics Activity,Dietary Factors,BMI,diabetes,blood measuer liver functions.",
+          "subgroups": [
+            {
+              "subgroup_type": "Overall",
+              "threshold": "None",
+              "subgroup": "Overall",
+              "results": [
+                {
+                  "feature": "Habitual Fish Oil Use",
+                  "measure": "Hazard Ratios",
+                  "value": 0.6,
+                  "ci_lower": 0.39,
+                  "ci_upper": 0.93,
+                  "p_value": 0.022,
+                  "p_hr_heterogeneity": "None"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tumor_subtype": "Overall",
+      "source_registers": [
+        "national cancer"
+      ],
+      "total_participants": 434584,
+      "models": [
+        {
+          "model_type": "multivariate cox hazard models adjusted for Age,Sex,Ethnic,Townsend Deprivation Index,Smoking Status,Smoking Frequency,Alchol Consumption,Total Physics Activity,Dietary Factors,BMI,diabetes,blood measuer liver functions.",
+          "subgroups": [
+            {
+              "subgroup_type": "Age",
+              "threshold": 65,
+              "subgroup": "Lower",
+              "results": [
+                {
+                  "feature": "Habitual Fish Oil Use",
+                  "measure": "Hazard Ratios",
+                  "value": 0.53,
+                  "ci_lower": 0.36,
+                  "ci_upper": 0.78,
+                  "p_value": 0.96,
+                  "p_hr_heterogeneity": "None"
+                }
+              ]
+            },
+            {
+              "subgroup_type": "Age",
+              "threshold": 65,
+              "subgroup": "Greater",
+              "results": [
+                {
+                  "feature": "Habitual Fish Oil Use",
+                  "measure": "Hazard Ratios",
+                  "value": 0.6,
+                  "ci_lower": 0.38,
+                  "ci_upper": 0.97,
+                  "p_value": 0.96,
+                  "p_hr_heterogeneity": "None"
+                }
+              ]
+            },
+            {
+              "subgroup_type": "Sex",
+              "threshold": "Categorical",
+              "subgroup": "Female",
+              "results": [
+                {
+                  "feature": "Habitual Fish Oil Use",
+                  "measure": "Hazard Ratios",
+                  "value": 0.65,
+                  "ci_lower": 0.41,
+                  "ci_upper": 1.04,
+                  "p_value": 0.33,
+                  "p_hr_heterogeneity": "None"
+                }
+              ]
+            },
+            {
+              "subgroup_type": "Sex",
+              "threshold": "Categorical",
+              "subgroup": "Male",
+              "results": [
+                {
+                  "feature": "Habitual Fish Oil Use",
+                  "measure": "Hazard Ratios",
+                  "value": 0.5,
+                  "ci_lower": 0.34,
+                  "ci_upper": 0.75,
+                  "p_value": 0.33,
+                  "p_hr_heterogeneity": "None"
+                }
+              ]
+            },
+            {
+              "subgroup_type": "Smoking Status",
+              "threshold": "Categorical",
+              "subgroup": "Never",
+              "results": [
+                {
+                  "feature": "Habitual Fish Oil Use",
+                  "measure": "Hazard Ratios",
+                  "value": 0.39,
+                  "ci_lower": 0.23,
+                  "ci_upper": 0.67,
+                  "p_value": 0.21,
+                  "p_hr_heterogeneity": "None"
+                }
+              ]
+            },
+            {
+              "subgroup_type": "Smoking Status",
+              "threshold": "Categorical",
+              "subgroup": "Former",
+              "results": [
+                {
+                  "feature": "Habitual Fish Oil Use",
+                  "measure": "Hazard Ratios",
+                  "value": 0.64,
+                  "ci_lower": 0.43,
+                  "ci_upper": 0.96,
+                  "p_value": 0.21,
+                  "p_hr_heterogeneity": "None"
+                }
+              ]
+            },
+            {
+              "subgroup_type": "Smoking Status",
+              "threshold": "Categorical",
+              "subgroup": "Current",
+              "results": [
+                {
+                  "feature": "Habitual Fish Oil Use",
+                  "measure": "Hazard Ratios",
+                  "value": 0.75,
+                  "ci_lower": 0.34,
+                  "ci_upper": 1.66,
+                  "p_value": 0.21,
+                  "p_hr_heterogeneity": "None"
+                }
+              ]
+            },
+            {
+              "subgroup_type": "Alchol Consumption",
+              "threshold": "1-2 drink",
+              "subgroup": "Lower",
+              "results": [
+                {
+                  "feature": "Habitual Fish Oil Use",
+                  "measure": "Hazard Ratios",
+                  "value": 0.84,
+                  "ci_lower": 0.54,
+                  "ci_upper": 1.31,
+                  "p_value": 0.024,
+                  "p_hr_heterogeneity": "None"
+                }
+              ]
+            },
+            {
+              "subgroup_type": "Alchol Consumption",
+              "threshold": "1-2 drink",
+              "subgroup": "Equal",
+              "results": [
+                {
+                  "feature": "Habitual Fish Oil Use",
+                  "measure": "Hazard Ratios",
+                  "value": 0.51,
+                  "ci_lower": 0.26,
+                  "ci_upper": 1.0,
+                  "p_value": 0.024,
+                  "p_hr_heterogeneity": "None"
+                }
+              ]
+            },
+            {
+              "subgroup_type": "Alchol Consumption",
+              "threshold": "1-2 drink",
+              "subgroup": "Greater",
+              "results": [
+                {
+                  "feature": "Habitual Fish Oil Use",
+                  "measure": "Hazard Ratios",
+                  "value": 0.37,
+                  "ci_lower": 0.22,
+                  "ci_upper": 0.63,
+                  "p_value": 0.024,
+                  "p_hr_heterogeneity": "None"
+                }
+              ]
+            },
+            {
+              "subgroup_type": "BMI",
+              "threshold": "25-30",
+              "subgroup": "Lower",
+              "results": [
+                {
+                  "feature": "Habitual Fish Oil Use",
+                  "measure": "Hazard Ratios",
+                  "value": 0.4,
+                  "ci_lower": 0.21,
+                  "ci_upper": 0.75,
+                  "p_value": 0.02,
+                  "p_hr_heterogeneity": "None"
+                }
+              ]
+            },
+            {
+              "subgroup_type": "BMI",
+              "threshold": "25-30",
+              "subgroup": "Equal",
+              "results": [
+                {
+                  "feature": "Habitual Fish Oil Use",
+                  "measure": "Hazard Ratios",
+                  "value": 0.38,
+                  "ci_lower": 0.23,
+                  "ci_upper": 0.65,
+                  "p_value": 0.02,
+                  "p_hr_heterogeneity": "None"
+                }
+              ]
+            },
+            {
+              "subgroup_type": "BMI",
+              "threshold": "25-30",
+              "subgroup": "Greater",
+              "results": [
+                {
+                  "feature": "Habitual Fish Oil Use",
+                  "measure": "Hazard Ratios",
+                  "value": 0.96,
+                  "ci_lower": 0.61,
+                  "ci_upper": 1.5,
+                  "p_value": 0.2,
+                  "p_hr_heterogeneity": "None"
+                }
+              ]
+            },
+            {
+              "subgroup_type": "Diabete",
+              "threshold": "Categorical",
+              "subgroup": "Positive",
+              "results": [
+                {
+                  "feature": "Habitual Fish Oil Use",
+                  "measure": "Hazard Ratios",
+                  "value": 0.59,
+                  "ci_lower": 0.43,
+                  "ci_upper": 0.83,
+                  "p_value": 0.38,
+                  "p_hr_heterogeneity": "None"
+                }
+              ]
+            },
+            {
+              "subgroup_type": "Diabete",
+              "threshold": "Categorical",
+              "subgroup": "Negative",
+              "results": [
+                {
+                  "feature": "Habitual Fish Oil Use",
+                  "measure": "Hazard Ratios",
+                  "value": 0.42,
+                  "ci_lower": 0.21,
+                  "ci_upper": 0.83,
+                  "p_value": 0.38,
+                  "p_hr_heterogeneity": "None"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

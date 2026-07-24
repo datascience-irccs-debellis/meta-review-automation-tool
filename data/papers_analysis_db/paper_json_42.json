@@ -1,0 +1,523 @@
+{
+  "tumors": [
+    {
+      "tumor_subtype": "C22.1",
+      "source_registers": [
+        "inpatient medical records",
+        "death registries",
+        "images??"
+      ],
+      "total_participants": 463643,
+      "models": [
+        {
+          "model_type": "multivariate cox hazard models adjusted for Age,Sex,Education,Lifestyle habits,family history of cancer,physical activity,central obesity,BMI,concomitant comorbidities,drug usage.",
+          "subgroups": [
+            {
+              "subgroup_type": "Overall",
+              "threshold": "None",
+              "subgroup": "Overall",
+              "results": [
+                {
+                  "feature": "Omeprazole",
+                  "measure": "Hazard Ratios",
+                  "value": 1.03,
+                  "ci_lower": 0.47,
+                  "ci_upper": 2.23,
+                  "p_value": "None",
+                  "p_hr_heterogeneity": "None"
+                },
+                {
+                  "feature": "Other PPI",
+                  "measure": "Hazard Ratios",
+                  "value": 1.03,
+                  "ci_lower": 0.4,
+                  "ci_upper": 2.66,
+                  "p_value": "None",
+                  "p_hr_heterogeneity": "None"
+                },
+                {
+                  "feature": "Regular PPI user",
+                  "measure": "Hazard Ratios",
+                  "value": 1.12,
+                  "ci_lower": 0.68,
+                  "ci_upper": 1.86,
+                  "p_value": "None",
+                  "p_hr_heterogeneity": "None"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "model_type": "univariate cox hazard models",
+          "subgroups": [
+            {
+              "subgroup_type": "Overall",
+              "threshold": "None",
+              "subgroup": "Overall",
+              "results": [
+                {
+                  "feature": "Regular PPI user",
+                  "measure": "Hazard Ratios",
+                  "value": 2.48,
+                  "ci_lower": 1.62,
+                  "ci_upper": 3.8,
+                  "p_value": "None",
+                  "p_hr_heterogeneity": "None"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tumor_subtype": "C24",
+      "source_registers": [
+        "inpatient medical records",
+        "death registries",
+        "images??"
+      ],
+      "total_participants": 463643,
+      "models": [
+        {
+          "model_type": "multivariate cox hazard models adjusted for Age,Sex,Education,Lifestyle habits,family history of cancer,physical activity,central obesity,BMI,concomitant comorbidities,drug usage.",
+          "subgroups": [
+            {
+              "subgroup_type": "Overall",
+              "threshold": "None",
+              "subgroup": "Overall",
+              "results": [
+                {
+                  "feature": "Omeprazole",
+                  "measure": "Hazard Ratios",
+                  "value": 1.24,
+                  "ci_lower": 0.53,
+                  "ci_upper": 2.9,
+                  "p_value": "None",
+                  "p_hr_heterogeneity": "None"
+                },
+                {
+                  "feature": "Other PPI",
+                  "measure": "Hazard Ratios",
+                  "value": 1.02,
+                  "ci_lower": 0.36,
+                  "ci_upper": 2.85,
+                  "p_value": "None",
+                  "p_hr_heterogeneity": "None"
+                },
+                {
+                  "feature": "Regular PPI user",
+                  "measure": "Hazard Ratios",
+                  "value": 1.07,
+                  "ci_lower": 0.53,
+                  "ci_upper": 2.17,
+                  "p_value": "None",
+                  "p_hr_heterogeneity": "None"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "model_type": "univariate cox hazard models",
+          "subgroups": [
+            {
+              "subgroup_type": "Overall",
+              "threshold": "None",
+              "subgroup": "Overall",
+              "results": [
+                {
+                  "feature": "Regular PPI user",
+                  "measure": "Hazard Ratios",
+                  "value": 1.56,
+                  "ci_lower": 0.85,
+                  "ci_upper": 2.88,
+                  "p_value": "None",
+                  "p_hr_heterogeneity": "None"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tumor_subtype": "Overall",
+      "source_registers": [
+        "inpatient medical records",
+        "death registries",
+        "images??"
+      ],
+      "total_participants": 463643,
+      "models": [
+        {
+          "model_type": "univariate cox hazard models",
+          "subgroups": [
+            {
+              "subgroup_type": "Overall",
+              "threshold": "None",
+              "subgroup": "Overall",
+              "results": [
+                {
+                  "feature": "Regular H2RA user",
+                  "measure": "Hazard Ratios",
+                  "value": 1.74,
+                  "ci_lower": 0.92,
+                  "ci_upper": 3.26,
+                  "p_value": "None",
+                  "p_hr_heterogeneity": "None"
+                },
+                {
+                  "feature": "Regular PPI user over H2RA",
+                  "measure": "Hazard Ratios",
+                  "value": 0.87,
+                  "ci_lower": 0.44,
+                  "ci_upper": 1.71,
+                  "p_value": "None",
+                  "p_hr_heterogeneity": "None"
+                },
+                {
+                  "feature": "Regular PPI user",
+                  "measure": "Hazard Ratios",
+                  "value": 1.96,
+                  "ci_lower": 1.44,
+                  "ci_upper": 2.66,
+                  "p_value": "None",
+                  "p_hr_heterogeneity": "None"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "model_type": "multivariate cox hazard models adjusted for Age,Sex,Education,Lifestyle habits,family history of cancer,physical activity,central obesity,BMI,concomitant comorbidities,drug usage.",
+          "subgroups": [
+            {
+              "subgroup_type": "Overall",
+              "threshold": "None",
+              "subgroup": "Overall",
+              "results": [
+                {
+                  "feature": "Regular H2RA user",
+                  "measure": "Hazard Ratios",
+                  "value": 1.13,
+                  "ci_lower": 0.56,
+                  "ci_upper": 2.25,
+                  "p_value": "None",
+                  "p_hr_heterogeneity": "None"
+                },
+                {
+                  "feature": "Regular PPI user over H2RA",
+                  "measure": "Hazard Ratios",
+                  "value": 0.79,
+                  "ci_lower": 0.39,
+                  "ci_upper": 1.6,
+                  "p_value": "None",
+                  "p_hr_heterogeneity": "None"
+                },
+                {
+                  "feature": "Regular PPI user",
+                  "measure": "Hazard Ratios",
+                  "value": 1.07,
+                  "ci_lower": 0.74,
+                  "ci_upper": 1.52,
+                  "p_value": "None",
+                  "p_hr_heterogeneity": "None"
+                }
+              ]
+            },
+            {
+              "subgroup_type": "Sex",
+              "threshold": "Categorical",
+              "subgroup": "Female",
+              "results": [
+                {
+                  "feature": "Regular PPI user",
+                  "measure": "Hazard Ratios",
+                  "value": 1.02,
+                  "ci_lower": 0.57,
+                  "ci_upper": 1.83,
+                  "p_value": "None",
+                  "p_hr_heterogeneity": "None"
+                }
+              ]
+            },
+            {
+              "subgroup_type": "Sex",
+              "threshold": "Categorical",
+              "subgroup": "Male",
+              "results": [
+                {
+                  "feature": "Regular PPI user",
+                  "measure": "Hazard Ratios",
+                  "value": 0.87,
+                  "ci_lower": 0.44,
+                  "ci_upper": 1.7,
+                  "p_value": "None",
+                  "p_hr_heterogeneity": "None"
+                }
+              ]
+            },
+            {
+              "subgroup_type": "Age",
+              "threshold": 60,
+              "subgroup": "Lower",
+              "results": [
+                {
+                  "feature": "Regular PPI user",
+                  "measure": "Hazard Ratios",
+                  "value": 1.02,
+                  "ci_lower": 0.4,
+                  "ci_upper": 1.7,
+                  "p_value": "None",
+                  "p_hr_heterogeneity": "None"
+                }
+              ]
+            },
+            {
+              "subgroup_type": "Age",
+              "threshold": 60,
+              "subgroup": "Greater",
+              "results": [
+                {
+                  "feature": "Regular PPI user",
+                  "measure": "Hazard Ratios",
+                  "value": 1.03,
+                  "ci_lower": 0.61,
+                  "ci_upper": 1.73,
+                  "p_value": "None",
+                  "p_hr_heterogeneity": "None"
+                }
+              ]
+            },
+            {
+              "subgroup_type": "Obesity",
+              "threshold": "Categorical",
+              "subgroup": "No",
+              "results": [
+                {
+                  "feature": "Regular PPI user",
+                  "measure": "Hazard Ratios",
+                  "value": 0.81,
+                  "ci_lower": 0.42,
+                  "ci_upper": 1.57,
+                  "p_value": "None",
+                  "p_hr_heterogeneity": "None"
+                }
+              ]
+            },
+            {
+              "subgroup_type": "Obesity",
+              "threshold": "Categorical",
+              "subgroup": "Yes",
+              "results": [
+                {
+                  "feature": "Regular PPI user",
+                  "measure": "Hazard Ratios",
+                  "value": 1.02,
+                  "ci_lower": 0.53,
+                  "ci_upper": 1.97,
+                  "p_value": "None",
+                  "p_hr_heterogeneity": "None"
+                }
+              ]
+            },
+            {
+              "subgroup_type": "Never Smoker",
+              "threshold": "Categorical",
+              "subgroup": "No",
+              "results": [
+                {
+                  "feature": "Regular PPI user",
+                  "measure": "Hazard Ratios",
+                  "value": 0.75,
+                  "ci_lower": 0.37,
+                  "ci_upper": 1.5,
+                  "p_value": "None",
+                  "p_hr_heterogeneity": "None"
+                }
+              ]
+            },
+            {
+              "subgroup_type": "Never Smoker",
+              "threshold": "Categorical",
+              "subgroup": "Yes",
+              "results": [
+                {
+                  "feature": "Regular PPI user",
+                  "measure": "Hazard Ratios",
+                  "value": 1.17,
+                  "ci_lower": 0.63,
+                  "ci_upper": 2.17,
+                  "p_value": "None",
+                  "p_hr_heterogeneity": "None"
+                }
+              ]
+            },
+            {
+              "subgroup_type": "Never Drinker",
+              "threshold": "Categorical",
+              "subgroup": "No",
+              "results": [
+                {
+                  "feature": "Regular PPI user",
+                  "measure": "Hazard Ratios",
+                  "value": 0.76,
+                  "ci_lower": 0.33,
+                  "ci_upper": 1.73,
+                  "p_value": "None",
+                  "p_hr_heterogeneity": "None"
+                }
+              ]
+            },
+            {
+              "subgroup_type": "Never Drinker",
+              "threshold": "Categorical",
+              "subgroup": "Yes",
+              "results": [
+                {
+                  "feature": "Regular PPI user",
+                  "measure": "Hazard Ratios",
+                  "value": 1.11,
+                  "ci_lower": 0.69,
+                  "ci_upper": 1.79,
+                  "p_value": "None",
+                  "p_hr_heterogeneity": "None"
+                }
+              ]
+            },
+            {
+              "subgroup_type": "Hpertension",
+              "threshold": "Categorical",
+              "subgroup": "No",
+              "results": [
+                {
+                  "feature": "Regular PPI user",
+                  "measure": "Hazard Ratios",
+                  "value": 0.47,
+                  "ci_lower": 0.18,
+                  "ci_upper": 1.2,
+                  "p_value": "None",
+                  "p_hr_heterogeneity": "None"
+                }
+              ]
+            },
+            {
+              "subgroup_type": "Hpertension",
+              "threshold": "Categorical",
+              "subgroup": "Yes",
+              "results": [
+                {
+                  "feature": "Regular PPI user",
+                  "measure": "Hazard Ratios",
+                  "value": 1.15,
+                  "ci_lower": 0.67,
+                  "ci_upper": 1.97,
+                  "p_value": "None",
+                  "p_hr_heterogeneity": "None"
+                }
+              ]
+            },
+            {
+              "subgroup_type": "Hypercholesterolemia",
+              "threshold": "Categorical",
+              "subgroup": "No",
+              "results": [
+                {
+                  "feature": "Regular PPI user",
+                  "measure": "Hazard Ratios",
+                  "value": 0.64,
+                  "ci_lower": 0.22,
+                  "ci_upper": 1.81,
+                  "p_value": "None",
+                  "p_hr_heterogeneity": "None"
+                }
+              ]
+            },
+            {
+              "subgroup_type": "Hypercholesterolemia",
+              "threshold": "Categorical",
+              "subgroup": "Yes",
+              "results": [
+                {
+                  "feature": "Regular PPI user",
+                  "measure": "Hazard Ratios",
+                  "value": 1.2,
+                  "ci_lower": 0.72,
+                  "ci_upper": 2.0,
+                  "p_value": "None",
+                  "p_hr_heterogeneity": "None"
+                }
+              ]
+            },
+            {
+              "subgroup_type": "Regular use of aspirin",
+              "threshold": "Categorical",
+              "subgroup": "No",
+              "results": [
+                {
+                  "feature": "Regular PPI user",
+                  "measure": "Hazard Ratios",
+                  "value": 0.88,
+                  "ci_lower": 0.48,
+                  "ci_upper": 1.62,
+                  "p_value": "None",
+                  "p_hr_heterogeneity": "None"
+                }
+              ]
+            },
+            {
+              "subgroup_type": "Regular use of aspirin",
+              "threshold": "Categorical",
+              "subgroup": "Yes",
+              "results": [
+                {
+                  "feature": "Regular PPI user",
+                  "measure": "Hazard Ratios",
+                  "value": 1.32,
+                  "ci_lower": 0.62,
+                  "ci_upper": 2.8,
+                  "p_value": "None",
+                  "p_hr_heterogeneity": "None"
+                }
+              ]
+            },
+            {
+              "subgroup_type": "Clinical indication for PPI user",
+              "threshold": "Categorical",
+              "subgroup": "No",
+              "results": [
+                {
+                  "feature": "Regular PPI user",
+                  "measure": "Hazard Ratios",
+                  "value": 0.84,
+                  "ci_lower": 0.42,
+                  "ci_upper": 1.68,
+                  "p_value": "None",
+                  "p_hr_heterogeneity": "None"
+                }
+              ]
+            },
+            {
+              "subgroup_type": "Clinical indication for PPI user",
+              "threshold": "Categorical",
+              "subgroup": "Yes",
+              "results": [
+                {
+                  "feature": "Regular PPI user",
+                  "measure": "Hazard Ratios",
+                  "value": 1.13,
+                  "ci_lower": 0.72,
+                  "ci_upper": 1.79,
+                  "p_value": "None",
+                  "p_hr_heterogeneity": "None"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

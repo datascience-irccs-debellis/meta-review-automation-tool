@@ -1,0 +1,224 @@
+{
+  "tumors": [
+    {
+      "tumor_subtype": "C22.1",
+      "source_registers": [
+        "national cancer",
+        "death registries"
+      ],
+      "total_participants": 440948,
+      "models": [
+        {
+          "model_type": "univariate cox hazard models",
+          "subgroups": [
+            {
+              "subgroup_type": "Sex",
+              "threshold": "Categorical",
+              "subgroup": "Female",
+              "results": [
+                {
+                  "feature": "Circulating total bilirubin level",
+                  "measure": "Hazard Ratios",
+                  "value": 1.29,
+                  "ci_lower": 0.81,
+                  "ci_upper": 2.06,
+                  "p_value": 0.29,
+                  "p_hr_heterogeneity": 0.56
+                }
+              ]
+            },
+            {
+              "subgroup_type": "Sex",
+              "threshold": "Categorical",
+              "subgroup": "Male",
+              "results": [
+                {
+                  "feature": "Circulating total bilirubin level",
+                  "measure": "Hazard Ratios",
+                  "value": 1.42,
+                  "ci_lower": 0.86,
+                  "ci_upper": 2.36,
+                  "p_value": 0.17,
+                  "p_hr_heterogeneity": 0.56
+                }
+              ]
+            },
+            {
+              "subgroup_type": "Sex",
+              "threshold": "Categorical",
+              "subgroup": "Overall",
+              "results": [
+                {
+                  "feature": "Circulating total bilirubin level",
+                  "measure": "Hazard Ratios",
+                  "value": 1.37,
+                  "ci_lower": 0.69,
+                  "ci_upper": 1.96,
+                  "p_value": 0.08,
+                  "p_hr_heterogeneity": "None"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "model_type": "multivariate cox hazard models adjusted for Waist circumference,smoking status,smoking intensity,alchol consumption frequency,education,total physical activity,height.",
+          "subgroups": [
+            {
+              "subgroup_type": "Sex",
+              "threshold": "Categorical",
+              "subgroup": "Female",
+              "results": [
+                {
+                  "feature": "Circulating total bilirubin level",
+                  "measure": "Hazard Ratios",
+                  "value": 1.4,
+                  "ci_lower": 0.78,
+                  "ci_upper": 2.5,
+                  "p_value": 0.25,
+                  "p_hr_heterogeneity": "None"
+                },
+                {
+                  "feature": "Circulating direct bilirubin level",
+                  "measure": "Hazard Ratios",
+                  "value": 1.41,
+                  "ci_lower": 0.76,
+                  "ci_upper": 2.63,
+                  "p_value": 0.28,
+                  "p_hr_heterogeneity": "None"
+                },
+                {
+                  "feature": "Circulating indirect bilirubin level",
+                  "measure": "Hazard Ratios",
+                  "value": 1.11,
+                  "ci_lower": 0.56,
+                  "ci_upper": 2.17,
+                  "p_value": 0.77,
+                  "p_hr_heterogeneity": "None"
+                }
+              ]
+            },
+            {
+              "subgroup_type": "Sex",
+              "threshold": "Categorical",
+              "subgroup": "Male",
+              "results": [
+                {
+                  "feature": "Circulating total bilirubin level",
+                  "measure": "Hazard Ratios",
+                  "value": 5.59,
+                  "ci_lower": 0.88,
+                  "ci_upper": 35.75,
+                  "p_value": 0.07,
+                  "p_hr_heterogeneity": "None"
+                },
+                {
+                  "feature": "Circulating direct bilirubin level",
+                  "measure": "Hazard Ratios",
+                  "value": 9.03,
+                  "ci_lower": 0.75,
+                  "ci_upper": 109.38,
+                  "p_value": 0.08,
+                  "p_hr_heterogeneity": "None"
+                },
+                {
+                  "feature": "Circulating indirect bilirubin level",
+                  "measure": "Hazard Ratios",
+                  "value": 4.48,
+                  "ci_lower": 0.78,
+                  "ci_upper": 25.8,
+                  "p_value": 0.09,
+                  "p_hr_heterogeneity": "None"
+                }
+              ]
+            },
+            {
+              "subgroup_type": "Sex",
+              "threshold": "Categorical",
+              "subgroup": "Overall",
+              "results": [
+                {
+                  "feature": "Circulating total bilirubin level",
+                  "measure": "Hazard Ratios",
+                  "value": 1.67,
+                  "ci_lower": 1.07,
+                  "ci_upper": 2.62,
+                  "p_value": 0.03,
+                  "p_hr_heterogeneity": "None"
+                },
+                {
+                  "feature": "Circulating total bilirubin level  corrected for regression diluition",
+                  "measure": "Hazard Ratios",
+                  "value": 2.04,
+                  "ci_lower": 1.09,
+                  "ci_upper": 3.81,
+                  "p_value": 0.03,
+                  "p_hr_heterogeneity": "None"
+                },
+                {
+                  "feature": "Circulating direct bilirubin level",
+                  "measure": "Hazard Ratios",
+                  "value": 1.77,
+                  "ci_lower": 1.11,
+                  "ci_upper": 2.82,
+                  "p_value": 0.02,
+                  "p_hr_heterogeneity": "None"
+                },
+                {
+                  "feature": "Circulating indirect bilirubin level",
+                  "measure": "Hazard Ratios",
+                  "value": 1.41,
+                  "ci_lower": 0.87,
+                  "ci_upper": 2.26,
+                  "p_value": 0.16,
+                  "p_hr_heterogeneity": "None"
+                },
+                {
+                  "feature": "Circulating indirect bilirubin level",
+                  "measure": "Hazard Ratios",
+                  "value": 1.67,
+                  "ci_lower": 1.07,
+                  "ci_upper": 2.62,
+                  "p_value": 0.03,
+                  "p_hr_heterogeneity": "None"
+                }
+              ]
+            },
+            {
+              "subgroup_type": "BMI",
+              "threshold": "26.74",
+              "subgroup": "Lower",
+              "results": [
+                {
+                  "feature": "Circulating total bilirubin level",
+                  "measure": "Hazard Ratios",
+                  "value": 0.81,
+                  "ci_lower": 0.43,
+                  "ci_upper": 1.51,
+                  "p_value": 0.05,
+                  "p_hr_heterogeneity": "None"
+                }
+              ]
+            },
+            {
+              "subgroup_type": "BMI",
+              "threshold": "26.74",
+              "subgroup": "Greater",
+              "results": [
+                {
+                  "feature": "Circulating total bilirubin level",
+                  "measure": "Hazard Ratios",
+                  "value": 4.36,
+                  "ci_lower": 1.89,
+                  "ci_upper": 10.5,
+                  "p_value": 0.001,
+                  "p_hr_heterogeneity": "None"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

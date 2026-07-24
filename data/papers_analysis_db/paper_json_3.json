@@ -1,0 +1,382 @@
+{
+  "tumors": [
+    {
+      "tumor_subtype": "C22",
+      "source_registers": [
+        "national cancer",
+        "death registries"
+      ],
+      "total_participants": 487489,
+      "models": [
+        {
+          "model_type": "univariate cox hazard models",
+          "subgroups": [
+            {
+              "subgroup_type": "Overall",
+              "threshold": "None",
+              "subgroup": "Overall",
+              "results": [
+                {
+                  "feature": "IMID Overall",
+                  "measure": "Hazard Ratios",
+                  "value": 0.945,
+                  "ci_lower": 0.739,
+                  "ci_upper": 1.207,
+                  "p_value": 0.648643
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "model_type": "multivariate cox hazard models adjusted for Age, Sex",
+          "subgroups": [
+            {
+              "subgroup_type": "Overall",
+              "threshold": "None",
+              "subgroup": "Overall",
+              "results": [
+                {
+                  "feature": "IMID Overall",
+                  "measure": "Hazard Ratios",
+                  "value": 0.83,
+                  "ci_lower": 0.649,
+                  "ci_upper": 1.061,
+                  "p_value": 0.136961
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "model_type": "multivariate cox hazard models adjusted for Age, Sex, BMI, Smoking History, Alcohol Intake, Family History of Cancer",
+          "subgroups": [
+            {
+              "subgroup_type": "Overall",
+              "threshold": "None",
+              "subgroup": "Overall",
+              "results": [
+                {
+                  "feature": "IMID Overall",
+                  "measure": "Hazard Ratios",
+                  "value": 0.783,
+                  "ci_lower": 0.611,
+                  "ci_upper": 1.002,
+                  "p_value": 0.05203
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tumor_subtype": "C24",
+      "source_registers": [
+        "national cancer",
+        "death registries"
+      ],
+      "total_participants": 487489,
+      "models": [
+        {
+          "model_type": "univariate cox hazard models",
+          "subgroups": [
+            {
+              "subgroup_type": "Overall",
+              "threshold": "None",
+              "subgroup": "Overall",
+              "results": [
+                {
+                  "feature": "IMID Overall",
+                  "measure": "Hazard Ratios",
+                  "value": 1.062,
+                  "ci_lower": 0.762,
+                  "ci_upper": 1.479,
+                  "p_value": 0.723311
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "model_type": "multivariate cox hazard models adjusted for Age, Sex",
+          "subgroups": [
+            {
+              "subgroup_type": "Overall",
+              "threshold": "None",
+              "subgroup": "Overall",
+              "results": [
+                {
+                  "feature": "IMID Overall",
+                  "measure": "Hazard Ratios",
+                  "value": 0.925,
+                  "ci_lower": 0.664,
+                  "ci_upper": 1.289,
+                  "p_value": 0.644332
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "model_type": "multivariate cox hazard models adjusted for Age, Sex, BMI, Smoking History, Alcohol Intake, Family History of Cancer",
+          "subgroups": [
+            {
+              "subgroup_type": "Overall",
+              "threshold": "None",
+              "subgroup": "Overall",
+              "results": [
+                {
+                  "feature": "IMID Overall",
+                  "measure": "Hazard Ratios",
+                  "value": 0.918,
+                  "ci_lower": 0.659,
+                  "ci_upper": 1.279,
+                  "p_value": 0.611596
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tumor_subtype": "Overall",
+      "source_registers": [
+        "national cancer",
+        "death registries"
+      ],
+      "total_participants": 487489,
+      "models": [
+        {
+          "model_type": "univariate cox hazard models",
+          "subgroups": [
+            {
+              "subgroup_type": "Overall",
+              "threshold": "None",
+              "subgroup": "Overall",
+              "results": [
+                {
+                  "feature": "IMID Overall",
+                  "measure": "Hazard Ratios",
+                  "value": 1.117,
+                  "ci_lower": 1.094,
+                  "ci_upper": 1.141,
+                  "p_value": 6.44e-25
+                },
+                {
+                  "feature": "Asthma",
+                  "measure": "Hazard Ratios",
+                  "value": 1.118,
+                  "ci_lower": 1.089,
+                  "ci_upper": 1.148,
+                  "p_value": 1.63e-16
+                },
+                {
+                  "feature": "Atopic Dermatitis",
+                  "measure": "Hazard Ratios",
+                  "value": 1.246,
+                  "ci_lower": 0.859,
+                  "ci_upper": 1.806,
+                  "p_value": 0.246673
+                },
+                {
+                  "feature": "Inflammatory Bowel Disease",
+                  "measure": "Hazard Ratios",
+                  "value": 1.04,
+                  "ci_lower": 1.008,
+                  "ci_upper": 1.073,
+                  "p_value": 0.01531
+                },
+                {
+                  "feature": "Multiple Sclerosis",
+                  "measure": "Hazard Ratios",
+                  "value": 0.709,
+                  "ci_lower": 0.619,
+                  "ci_upper": 0.812,
+                  "p_value": 7.12e-07
+                },
+                {
+                  "feature": "Psoriasis",
+                  "measure": "Hazard Ratios",
+                  "value": 1.412,
+                  "ci_lower": 1.312,
+                  "ci_upper": 1.519,
+                  "p_value": 2.72e-20
+                },
+                {
+                  "feature": "Rheumatoid Arthritis",
+                  "measure": "Hazard Ratios",
+                  "value": 1.124,
+                  "ci_lower": 0.964,
+                  "ci_upper": 1.311,
+                  "p_value": 0.135943
+                },
+                {
+                  "feature": "IMID Overall",
+                  "measure": "Hazard Ratios",
+                  "value": 1.126,
+                  "ci_lower": 1.098,
+                  "ci_upper": 1.155,
+                  "p_value": 4.45e-20
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "model_type": "multivariate cox hazard models adjusted for Age, Sex",
+          "subgroups": [
+            {
+              "subgroup_type": "Overall",
+              "threshold": "None",
+              "subgroup": "Overall",
+              "results": [
+                {
+                  "feature": "IMID Overall",
+                  "measure": "Hazard Ratios",
+                  "value": 1.079,
+                  "ci_lower": 1.057,
+                  "ci_upper": 1.102,
+                  "p_value": 1.76e-12
+                },
+                {
+                  "feature": "Asthma",
+                  "measure": "Hazard Ratios",
+                  "value": 1.048,
+                  "ci_lower": 1.021,
+                  "ci_upper": 1.076,
+                  "p_value": 0.000529
+                },
+                {
+                  "feature": "Atopic Dermatitis",
+                  "measure": "Hazard Ratios",
+                  "value": 1.31,
+                  "ci_lower": 0.904,
+                  "ci_upper": 1.898,
+                  "p_value": 0.153862
+                },
+                {
+                  "feature": "Inflammatory Bowel Disease",
+                  "measure": "Hazard Ratios",
+                  "value": 1.042,
+                  "ci_lower": 1.01,
+                  "ci_upper": 1.076,
+                  "p_value": 0.010144
+                },
+                {
+                  "feature": "Multiple Sclerosis",
+                  "measure": "Hazard Ratios",
+                  "value": 0.941,
+                  "ci_lower": 0.822,
+                  "ci_upper": 1.078,
+                  "p_value": 0.382524
+                },
+                {
+                  "feature": "Psoriasis",
+                  "measure": "Hazard Ratios",
+                  "value": 1.152,
+                  "ci_lower": 1.07,
+                  "ci_upper": 1.239,
+                  "p_value": 0.000158
+                },
+                {
+                  "feature": "Rheumatoid Arthritis",
+                  "measure": "Hazard Ratios",
+                  "value": 0.969,
+                  "ci_lower": 0.831,
+                  "ci_upper": 1.13,
+                  "p_value": 0.688249
+                },
+                {
+                  "feature": "IMID Overall",
+                  "measure": "Hazard Ratios",
+                  "value": 1.035,
+                  "ci_lower": 1.008,
+                  "ci_upper": 1.063,
+                  "p_value": 0.009623
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "model_type": "multivariate cox hazard models adjusted for Age, Sex, BMI, Smoking History, Alcohol Intake, Family History of Cancer",
+          "subgroups": [
+            {
+              "subgroup_type": "Overall",
+              "threshold": "None",
+              "subgroup": "Overall",
+              "results": [
+                {
+                  "feature": "IMID Overall",
+                  "measure": "Hazard Ratios",
+                  "value": 1.071,
+                  "ci_lower": 1.049,
+                  "ci_upper": 1.095,
+                  "p_value": 2.74e-10
+                },
+                {
+                  "feature": "Asthma",
+                  "measure": "Hazard Ratios",
+                  "value": 1.039,
+                  "ci_lower": 1.011,
+                  "ci_upper": 1.067,
+                  "p_value": 0.005456
+                },
+                {
+                  "feature": "Atopic Dermatitis",
+                  "measure": "Hazard Ratios",
+                  "value": 1.302,
+                  "ci_lower": 0.893,
+                  "ci_upper": 1.9,
+                  "p_value": 0.17025
+                },
+                {
+                  "feature": "Inflammatory Bowel Disease",
+                  "measure": "Hazard Ratios",
+                  "value": 1.037,
+                  "ci_lower": 1.005,
+                  "ci_upper": 1.071,
+                  "p_value": 0.024457
+                },
+                {
+                  "feature": "Multiple Sclerosis",
+                  "measure": "Hazard Ratios",
+                  "value": 0.965,
+                  "ci_lower": 0.839,
+                  "ci_upper": 1.11,
+                  "p_value": 0.616614
+                },
+                {
+                  "feature": "Psoriasis",
+                  "measure": "Hazard Ratios",
+                  "value": 1.129,
+                  "ci_lower": 1.049,
+                  "ci_upper": 1.216,
+                  "p_value": 0.001255
+                },
+                {
+                  "feature": "Rheumatoid Arthritis",
+                  "measure": "Hazard Ratios",
+                  "value": 0.951,
+                  "ci_lower": 0.814,
+                  "ci_upper": 1.112,
+                  "p_value": 0.529675
+                },
+                {
+                  "feature": "IMID Overall",
+                  "measure": "Hazard Ratios",
+                  "value": 1.03,
+                  "ci_lower": 1.003,
+                  "ci_upper": 1.057,
+                  "p_value": 0.027272
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

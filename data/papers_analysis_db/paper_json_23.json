@@ -1,0 +1,190 @@
+{
+  "tumors": [
+    {
+      "tumor_subtype": "C22.1",
+      "source_registers": [
+        "national cancer"
+      ],
+      "total_participants": 443542,
+      "models": [
+        {
+          "model_type": "multivariate cox hazard models adjusted for Age, Sex, Ethnicity, Smoking status, Alchol status, BMI, History Allergies, Total WBC.",
+          "subgroups": [
+            {
+              "subgroup_type": "History Allergies",
+              "threshold": "Categorical",
+              "subgroup": "No",
+              "results": [
+                {
+                  "feature": "Absolute Eosinophil Count (AEC)",
+                  "measure": "Hazard Ratios",
+                  "value": 1.25,
+                  "ci_lower": 0.99,
+                  "ci_upper": 1.56,
+                  "p_value": 0.06,
+                  "p_hr_heterogeneity": 0.6
+                }
+              ]
+            },
+            {
+              "subgroup_type": "History Allergies",
+              "threshold": "Categorical",
+              "subgroup": "Yes",
+              "results": [
+                {
+                  "feature": "Absolute Eosinophil Count (AEC)",
+                  "measure": "Hazard Ratios",
+                  "value": 1.18,
+                  "ci_lower": 0.81,
+                  "ci_upper": 1.71,
+                  "p_value": 0.4,
+                  "p_hr_heterogeneity": 0.6
+                }
+              ]
+            },
+            {
+              "subgroup_type": "Overall",
+              "threshold": "None",
+              "subgroup": "Overall",
+              "results": [
+                {
+                  "feature": "Absolute Eosinophil Count (AEC)",
+                  "measure": "Hazard Ratios",
+                  "value": 1.22,
+                  "ci_lower": 1.01,
+                  "ci_upper": 1.49,
+                  "p_value": 0.04,
+                  "p_hr_heterogeneity": "None"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tumor_subtype": "C24",
+      "source_registers": [
+        "national cancer"
+      ],
+      "total_participants": 443542,
+      "models": [
+        {
+          "model_type": "multivariate cox hazard models adjusted for Age, Sex, Ethnicity, Smoking status, Alchol status, BMI, History Allergies, Total WBC.",
+          "subgroups": [
+            {
+              "subgroup_type": "History Allergies",
+              "threshold": "Categorical",
+              "subgroup": "No",
+              "results": [
+                {
+                  "feature": "Absolute Eosinophil Count (AEC)",
+                  "measure": "Hazard Ratios",
+                  "value": 0.98,
+                  "ci_lower": 0.76,
+                  "ci_upper": 1.25,
+                  "p_value": 0.86,
+                  "p_hr_heterogeneity": 0.96
+                }
+              ]
+            },
+            {
+              "subgroup_type": "History Allergies",
+              "threshold": "Categorical",
+              "subgroup": "Yes",
+              "results": [
+                {
+                  "feature": "Absolute Eosinophil Count (AEC)",
+                  "measure": "Hazard Ratios",
+                  "value": 1.0,
+                  "ci_lower": 0.62,
+                  "ci_upper": 1.63,
+                  "p_value": 0.99,
+                  "p_hr_heterogeneity": 0.96
+                }
+              ]
+            },
+            {
+              "subgroup_type": "Overall",
+              "threshold": "None",
+              "subgroup": "Overall",
+              "results": [
+                {
+                  "feature": "Absolute Eosinophil Count (AEC)",
+                  "measure": "Hazard Ratios",
+                  "value": 0.98,
+                  "ci_lower": 0.77,
+                  "ci_upper": 1.22,
+                  "p_value": 0.85,
+                  "p_hr_heterogeneity": "None"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tumor_subtype": "Overall",
+      "source_registers": [
+        "national cancer"
+      ],
+      "total_participants": 443542,
+      "models": [
+        {
+          "model_type": "multivariate cox hazard models adjusted for Age, Sex, Ethnicity, Smoking status, Alchol status, BMI, History Allergies, Total WBC.",
+          "subgroups": [
+            {
+              "subgroup_type": "History Allergies",
+              "threshold": "Categorical",
+              "subgroup": "No",
+              "results": [
+                {
+                  "feature": "Absolute Eosinophil Count (AEC)",
+                  "measure": "Hazard Ratios",
+                  "value": 0.97,
+                  "ci_lower": 0.96,
+                  "ci_upper": 0.98,
+                  "p_value": 8e-05,
+                  "p_hr_heterogeneity": 0.19
+                }
+              ]
+            },
+            {
+              "subgroup_type": "History Allergies",
+              "threshold": "Categorical",
+              "subgroup": "Yes",
+              "results": [
+                {
+                  "feature": "Absolute Eosinophil Count (AEC)",
+                  "measure": "Hazard Ratios",
+                  "value": 0.96,
+                  "ci_lower": 0.93,
+                  "ci_upper": 0.98,
+                  "p_value": 0.0002,
+                  "p_hr_heterogeneity": 0.19
+                }
+              ]
+            },
+            {
+              "subgroup_type": "Overall",
+              "threshold": "None",
+              "subgroup": "Overall",
+              "results": [
+                {
+                  "feature": "Absolute Eosinophil Count (AEC)",
+                  "measure": "Hazard Ratios",
+                  "value": 0.97,
+                  "ci_lower": 0.95,
+                  "ci_upper": 0.98,
+                  "p_value": 1e-05,
+                  "p_hr_heterogeneity": "None"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

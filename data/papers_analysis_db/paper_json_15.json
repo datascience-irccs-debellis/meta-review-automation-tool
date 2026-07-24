@@ -1,0 +1,124 @@
+{
+  "tumors": [
+    {
+      "tumor_subtype": "C22",
+      "source_registers": [
+        "national cancer",
+        "death registries"
+      ],
+      "total_participants": 93884,
+      "models": [
+        {
+          "model_type": "multivariate cox hazard models adjusted for Age, Sex, Race, Ethnicity, Household Income, Educational Attainment, Townsend Deprivation Index, Metabolic equivalents for Physical Activity, BMI, Smoking Status, Alcohol Consumption, Intake of Oily Fish, Fruits and Vegetables, History of Hypertension and Diabetes, Use of Immunomodulators, Antihypertensive Medications, Statins, Aspirin and Insulin",
+          "subgroups": [
+            {
+              "subgroup_type": "Overall",
+              "threshold": "None",
+              "subgroup": "Overall",
+              "results": [
+                {
+                  "feature": "IMID prior to cancer",
+                  "measure": "Hazard Ratios",
+                  "value": 1.39,
+                  "ci_lower": 1.1,
+                  "ci_upper": 1.75,
+                  "p_value": 0.006,
+                  "p_hr_heterogeneity": "None"
+                },
+                {
+                  "feature": "IMID after cancer",
+                  "measure": "Hazard Ratios",
+                  "value": 0.46,
+                  "ci_lower": 0.33,
+                  "ci_upper": 0.66,
+                  "p_value": 0.0001,
+                  "p_hr_heterogeneity": "None"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tumor_subtype": "C24",
+      "source_registers": [
+        "national cancer",
+        "death registries"
+      ],
+      "total_participants": 93884,
+      "models": [
+        {
+          "model_type": "multivariate cox hazard models adjusted for Age, Sex, Race, Ethnicity, Household Income, Educational Attainment, Townsend Deprivation Index, Metabolic equivalents for Physical Activity, BMI, Smoking Status, Alcohol Consumption, Intake of Oily Fish, Fruits and Vegetables, History of Hypertension and Diabetes, Use of Immunomodulators, Antihypertensive Medications, Statins, Aspirin and Insulin",
+          "subgroups": [
+            {
+              "subgroup_type": "Overall",
+              "threshold": "None",
+              "subgroup": "Overall",
+              "results": [
+                {
+                  "feature": "IMID prior to cancer",
+                  "measure": "Hazard Ratios",
+                  "value": 1.45,
+                  "ci_lower": 1.01,
+                  "ci_upper": 2.07,
+                  "p_value": 0.044,
+                  "p_hr_heterogeneity": "None"
+                },
+                {
+                  "feature": "IMID after cancer",
+                  "measure": "Hazard Ratios",
+                  "value": 0.33,
+                  "ci_lower": 0.2,
+                  "ci_upper": 0.54,
+                  "p_value": 0.0001,
+                  "p_hr_heterogeneity": "None"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tumor_subtype": "Overall",
+      "source_registers": [
+        "national cancer",
+        "death registries"
+      ],
+      "total_participants": 93884,
+      "models": [
+        {
+          "model_type": "multivariate cox hazard models adjusted for Age, Sex, Race, Ethnicity, Household Income, Educational Attainment, Townsend Deprivation Index, Metabolic equivalents for Physical Activity, BMI, Smoking Status, Alcohol Consumption, Intake of Oily Fish, Fruits and Vegetables, History of Hypertension and Diabetes, Use of Immunomodulators, Antihypertensive Medications, Statins, Aspirin and Insulin",
+          "subgroups": [
+            {
+              "subgroup_type": "Overall",
+              "threshold": "None",
+              "subgroup": "Overall",
+              "results": [
+                {
+                  "feature": "IMID prior to cancer",
+                  "measure": "Hazard Ratios",
+                  "value": 1.62,
+                  "ci_lower": 1.55,
+                  "ci_upper": 1.71,
+                  "p_value": 0.0001,
+                  "p_hr_heterogeneity": "None"
+                },
+                {
+                  "feature": "IMID after cancer",
+                  "measure": "Hazard Ratios",
+                  "value": 0.69,
+                  "ci_lower": 0.66,
+                  "ci_upper": 0.73,
+                  "p_value": 0.0001,
+                  "p_hr_heterogeneity": "None"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

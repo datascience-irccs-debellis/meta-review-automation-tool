@@ -1,0 +1,182 @@
+{
+  "tumors": [
+    {
+      "tumor_subtype": "Overall",
+      "source_registers": [
+        "death registries"
+      ],
+      "total_participants": 459342,
+      "models": [
+        {
+          "model_type": "multivariate cox hazard models adjusted for Height,Education,Socio-economic Status,Alchol Consumption,Diet,Physical Activity,Sedentary Behavior,Previous Cancers Screening.",
+          "subgroups": [
+            {
+              "subgroup_type": "Sex",
+              "threshold": "Categorical",
+              "subgroup": "Male",
+              "results": [
+                {
+                  "feature": "Preclinical Obesity",
+                  "measure": "Hazard Ratios",
+                  "value": 1.35,
+                  "ci_lower": 0.98,
+                  "ci_upper": 1.85,
+                  "p_value": "None",
+                  "p_hr_heterogeneity": "None"
+                },
+                {
+                  "feature": "Clinical Obesity",
+                  "measure": "Hazard Ratios",
+                  "value": 1.65,
+                  "ci_lower": 1.19,
+                  "ci_upper": 2.3,
+                  "p_value": "None",
+                  "p_hr_heterogeneity": "None"
+                }
+              ]
+            },
+            {
+              "subgroup_type": "Sex",
+              "threshold": "Categorical",
+              "subgroup": "Female",
+              "results": [
+                {
+                  "feature": "Preclinical Obesity",
+                  "measure": "Hazard Ratios",
+                  "value": 1.29,
+                  "ci_lower": 0.95,
+                  "ci_upper": 1.75,
+                  "p_value": "None",
+                  "p_hr_heterogeneity": "None"
+                },
+                {
+                  "feature": "Clinical Obesity",
+                  "measure": "Hazard Ratios",
+                  "value": 1.76,
+                  "ci_lower": 1.29,
+                  "ci_upper": 2.4,
+                  "p_value": "None",
+                  "p_hr_heterogeneity": "None"
+                }
+              ]
+            },
+            {
+              "subgroup_type": "Age",
+              "threshold": 60,
+              "subgroup": "Lower",
+              "results": [
+                {
+                  "feature": "Preclinical Obesity",
+                  "measure": "Hazard Ratios",
+                  "value": 1.87,
+                  "ci_lower": 1.29,
+                  "ci_upper": 2.71,
+                  "p_value": "None",
+                  "p_hr_heterogeneity": "None"
+                },
+                {
+                  "feature": "Clinical Obesity",
+                  "measure": "Hazard Ratios",
+                  "value": 2.1,
+                  "ci_lower": 1.36,
+                  "ci_upper": 3.26,
+                  "p_value": "None",
+                  "p_hr_heterogeneity": "None"
+                }
+              ]
+            },
+            {
+              "subgroup_type": "Age",
+              "threshold": 60,
+              "subgroup": "Upper",
+              "results": [
+                {
+                  "feature": "Preclinical Obesity",
+                  "measure": "Hazard Ratios",
+                  "value": 1.09,
+                  "ci_lower": 0.83,
+                  "ci_upper": 1.43,
+                  "p_value": "None",
+                  "p_hr_heterogeneity": "None"
+                },
+                {
+                  "feature": "Clinical Obesity",
+                  "measure": "Hazard Ratios",
+                  "value": 1.55,
+                  "ci_lower": 1.19,
+                  "ci_upper": 2.02,
+                  "p_value": "None",
+                  "p_hr_heterogeneity": "None"
+                }
+              ]
+            },
+            {
+              "subgroup_type": "Overall",
+              "threshold": "None",
+              "subgroup": "Overall",
+              "results": [
+                {
+                  "feature": "Preclinical Obesity",
+                  "measure": "Hazard Ratios",
+                  "value": 1.29,
+                  "ci_lower": 1.04,
+                  "ci_upper": 1.61,
+                  "p_value": "None",
+                  "p_hr_heterogeneity": "None"
+                },
+                {
+                  "feature": "Clinical Obesity",
+                  "measure": "Hazard Ratios",
+                  "value": 1.69,
+                  "ci_lower": 1.34,
+                  "ci_upper": 2.11,
+                  "p_value": "None",
+                  "p_hr_heterogeneity": "None"
+                },
+                {
+                  "feature": "BMI-based Obesity",
+                  "measure": "Hazard Ratios",
+                  "value": 1.39,
+                  "ci_lower": 1.09,
+                  "ci_upper": 1.76,
+                  "p_value": "None",
+                  "p_hr_heterogeneity": "None"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "model_type": "multivariate cox hazard models adjusted for Height,Education,Socio-economic Status,Alchol Consumption,Diet,Physical Activity,Sedentary Behavior,Previous Cancers Screening,Ethnicity,Cancer Family History",
+          "subgroups": [
+            {
+              "subgroup_type": "Overall",
+              "threshold": "None",
+              "subgroup": "Overall",
+              "results": [
+                {
+                  "feature": "Preclinical Obesity",
+                  "measure": "Hazard Ratios",
+                  "value": 1.29,
+                  "ci_lower": 1.04,
+                  "ci_upper": 1.61,
+                  "p_value": "None",
+                  "p_hr_heterogeneity": "None"
+                },
+                {
+                  "feature": "Clinical Obesity",
+                  "measure": "Hazard Ratios",
+                  "value": 1.68,
+                  "ci_lower": 1.34,
+                  "ci_upper": 2.11,
+                  "p_value": "None",
+                  "p_hr_heterogeneity": "None"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

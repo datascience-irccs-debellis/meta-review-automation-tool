@@ -1,0 +1,118 @@
+{
+  "tumors": [
+    {
+      "tumor_subtype": "C22",
+      "source_registers": [
+        "inpatient medical records",
+        "national cancer"
+      ],
+      "total_participants": 498930,
+      "models": [
+        {
+          "model_type": "multivariate regression model adjusted for age,genetic background",
+          "subgroups": [
+            {
+              "subgroup_type": "Overall",
+              "threshold": "None",
+              "subgroup": "Overall",
+              "results": [
+                {
+                  "feature": "CFTR F508del mutation",
+                  "measure": "Odds Ratio",
+                  "value": 1.16,
+                  "ci_lower": 0.74,
+                  "ci_upper": 1.73,
+                  "p_value": 0.49,
+                  "p_hr_heterogeneity": "None"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tumor_subtype": "C24",
+      "source_registers": [
+        "inpatient medical records",
+        "national cancer"
+      ],
+      "total_participants": 498930,
+      "models": [
+        {
+          "model_type": "multivariate regression model adjusted for age,genetic background",
+          "subgroups": [
+            {
+              "subgroup_type": "Overall",
+              "threshold": "None",
+              "subgroup": "Overall",
+              "results": [
+                {
+                  "feature": "CFTR F508del mutation",
+                  "measure": "Odds Ratio",
+                  "value": 1.92,
+                  "ci_lower": 1.2,
+                  "ci_upper": 2.91,
+                  "p_value": 0.004,
+                  "p_hr_heterogeneity": "None"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tumor_subtype": "Overall",
+      "source_registers": [
+        "inpatient medical records",
+        "national cancer"
+      ],
+      "total_participants": 498930,
+      "models": [
+        {
+          "model_type": "univariate regression model",
+          "subgroups": [
+            {
+              "subgroup_type": "Overall",
+              "threshold": "None",
+              "subgroup": "Overall",
+              "results": [
+                {
+                  "feature": "CFTR F508del mutation",
+                  "measure": "Odds Ratio",
+                  "value": 1.92,
+                  "ci_lower": 1.2,
+                  "ci_upper": 2.91,
+                  "p_value": 0.00387,
+                  "p_hr_heterogeneity": "None"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "model_type": "multivariate regression model adjusted for genetic background",
+          "subgroups": [
+            {
+              "subgroup_type": "Overall",
+              "threshold": "None",
+              "subgroup": "Overall",
+              "results": [
+                {
+                  "feature": "CFTR F508del mutation",
+                  "measure": "Odds Ratio",
+                  "value": 1.95,
+                  "ci_lower": 1.21,
+                  "ci_upper": 2.96,
+                  "p_value": 0.00312,
+                  "p_hr_heterogeneity": "None"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
