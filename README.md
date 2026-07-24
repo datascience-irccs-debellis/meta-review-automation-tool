@@ -242,7 +242,7 @@ All global parameters can be customized in `config.py`:
 
 ---
 
-## 💡 Academic Reproducibility & Citation
+<!-- ## 💡 Academic Reproducibility & Citation
 
 If you use this toolkit in your research or wish to reproduce the findings reported in our *Journal of Biomedical Informatics* submission, please refer to the repository's example dataset and cite:
 
@@ -255,4 +255,4 @@ If you use this toolkit in your research or wish to reproduce the findings repor
   note={Under Review}
 }
 ```
----
+-->
