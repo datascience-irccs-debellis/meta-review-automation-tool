@@ -255,11 +255,4 @@ If you use this toolkit in your research or wish to reproduce the findings repor
   note={Under Review}
 }
 ```
-
 ---
-
-To ensure the repository is fully prepared for journal reviewers, please confirm or clarify the following details:
-
-1. **Sample Data Availability**: Do you want to include a minimal sample CSV (`raw_review_database.csv`) and sample JSON files inside `data/` directly in the repository so reviewers can run `python main.py --all` out-of-the-box?
-2. **Paper Metadata**: Would you like to add the actual title, authors, or DOI placeholder for the *Journal of Biomedical Informatics* submission to the top of the README?
-3. **Interactive Step Strategy**: During Step 0 and Step 2 harmonization, user input is required in the command line (`y/n` and option numbers). Should we add an optional `--non-interactive` flag or fallback mode for automated continuous integration (CI) tests?
